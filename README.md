@@ -1,0 +1,3 @@
+# example
+
+> npm run example

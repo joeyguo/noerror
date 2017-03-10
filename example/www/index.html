@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+ <script>
+    window.onerror = function (msg, url, row, col, error) {
+        console.log('onerror 错误信息 ↙');
+        console.log(msg)
+        // if (error) {
+        //     console.error(error.stack || msg);
+        // }
+        // var reportMsg = msg + '-'+ url + '-' + row + '-' + col; // 错误信息
+
+        // report(reportMsg); // 将消息上报到错误收集平台
+    };
+    </script>
+    <script src="http://127.0.0.1:8077/main.js"></script>
+    <script src="http://127.0.0.1:8077/main.js" crossorigin></script>
+</body>
+</html>

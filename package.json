@@ -1,0 +1,17 @@
+{
+  "name": "sharehub-static-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "example": "node ./example/index.js",
+    "start": "node ./noerror/index.js"
+  },
+  "author": "joeyguo",
+  "license": "MIT",
+  "dependencies": {
+    "kcors": "^1.3.2",
+    "koa": "^1.2.5",
+    "koa-static": "^2.1.0"
+  }
+}
