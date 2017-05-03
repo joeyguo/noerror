@@ -1,0 +1,19 @@
+{
+  "name": "noerror-example",
+  "version": "0.0.1",
+  "description": "noerror-example",
+  "main": "server.js",
+  "scripts": {
+    "dist": "webpack"
+  },
+  "author": "joeyguo",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.4",
+    "babel-core": "^6.24.1",
+    "webpack": "^2.4.1",
+    "webpack-uglify-parallel": "^0.1.3"
+  }
+}

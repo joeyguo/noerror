@@ -5,10 +5,10 @@ var cors = require('kcors');
 // ------ app  ----- //
 var app = new koa();
 
-app.use(staticServer(__dirname + '/www'));
+app.use(staticServer(__dirname));
 
 app.listen(8066, function() {
-  console.log('listening on port ' + 8066);
+  console.log('webserver: listening on port ' + 8066);
 });
 
 
@@ -25,8 +25,8 @@ cdn.use(function *(next){
     return yield next;
 });
 
-cdn.use(staticServer(__dirname + '/cdn'));
+cdn.use(staticServer(__dirname));
 
 cdn.listen(8077, function() {
-  console.log('listening on port ' + 8077);
+  console.log('cdn: listening on port ' + 8077);
 });

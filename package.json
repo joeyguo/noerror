@@ -1,17 +1,29 @@
 {
-  "name": "sharehub-static-server",
-  "version": "1.0.0",
+  "name": "noerror",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "example": "node ./example/index.js",
+    "demo": "npm run example & npm run start",
+    "example": "node ./example/server.js",
     "start": "node ./noerror/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeyguo/noerror.git"
+  },
+  "keywords": [],
   "author": "joeyguo",
   "license": "MIT",
-  "dependencies": {
+  "bugs": {
+    "url": "https://github.com/joeyguo/noerror/issues"
+  },
+  "homepage": "https://github.com/joeyguo/noerror/issues#readme",
+  "dependencies": {},
+  "devDependencies": {
     "kcors": "^1.3.2",
     "koa": "^1.2.5",
-    "koa-static": "^2.1.0"
+    "koa-static": "^2.1.0",
+    "source-map": "^0.5.6"
   }
 }

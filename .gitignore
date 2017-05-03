@@ -1,5 +1,12 @@
 node_modules
+node_modules.7z
+dist
 .svn
+build
+dev
 .DS_Store
+webpack_cache
+.webpack_cache
+.happypack
 npm-debug.log
-TODO.md
+.idea
