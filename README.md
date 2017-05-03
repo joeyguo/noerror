@@ -1,18 +1,17 @@
-
 ## 文章
 [《脚本错误量极致优化-让脚本错误一目了然》](https://github.com/joeyguo/blog/issues/14)
 
 ## 运行示例
 
-### 启动 [noerror](https://github.com/joeyguo/noerror) 脚本错误监控系统
+* 启动 noerror 脚本错误监控
 
-- bash: npm start
-- open: http://localhost:8055/
+  - bash: npm start
+  - open: http://localhost:8055/
 
-### 运行示例（上报错误）
+* 运行example（上报错误）
 
-- bash: npm run example
-- open: http://localhost:8066/ 
+  - bash: npm run example
+  - open: http://localhost:8066/ 
 
 ## 示例效果
 
