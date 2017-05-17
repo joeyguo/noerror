@@ -1,5 +1,8 @@
 ## 文章
-[《脚本错误量极致优化-让脚本错误一目了然》](https://github.com/joeyguo/blog/issues/14)
+
+- [《脚本错误量极致优化-监控上报与Script error》](https://github.com/joeyguo/blog/issues/13)
+
+- [《脚本错误量极致优化-让脚本错误一目了然》](https://github.com/joeyguo/blog/issues/14)
 
 ## 运行示例
 
